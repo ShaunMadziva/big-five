@@ -2,6 +2,13 @@ html {
   scroll-behavior: smooth;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  position: relative;
+}
+
 html,body,h2 {
   margin: 0;
   padding: 0;
