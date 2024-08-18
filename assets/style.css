@@ -1,0 +1,129 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,body,h2 {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif
+}
+
+header {
+  display: flex;
+  color: rgb(251, 250, 250);
+  position: fixed;
+  z-index: 1; /* Header overlaper other content */
+  gap: 3rem;
+  padding: 2.5rem 3rem;
+}
+
+header a {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  gap: 2.3rem;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 800;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.feature {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  position: absolute;
+  bottom: 230px;
+  left: 3rem;
+  color: #fff;
+}
+
+.content_tagline {
+  text-transform: uppercase;
+  font-weight: 100;
+  opacity: 1;
+  font-size: 1.3rem;
+}
+
+.content_headline {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.content_more {
+  display: inline-block;
+  border: 2px solid white;
+  max-width: 200px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.85rem;
+  letter-spacing: 0.1rem;
+  opacity: 1;
+  color: #fff;
+  padding: 1rem 2rem;
+  text-decoration: none;
+}
+
+.content_more:hover {
+  background-color: #fff;
+  color: black;
+}
+
+footer {
+  background-image: url(/assets/big5.png);
+  text-align: center;
+  color: #f4f0f0;
+  padding: 40px;
+}
+
+footer a {
+  color: rgb(7, 131, 203);
+  font-family: sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  border: 2px solid white;
+  background-color: #fff;
+  padding: 0.2rem;
+}
+
+footer a:hover {
+  background-color: rgba(240, 255, 240, 0);
+  color: blue;
+}
+
+.image-lion {
+  background-image: url(./lion.png);
+}
+
+.image-elephant {
+  background-image: url(./elephant.png);
+}
+
+.image-rhino {
+  background-image: url(./rhino.png);
+}
+
+.image-buffalo {
+  background-image: url(./buffalo.png);
+}
+
+.image-leopard {
+  background-image: url(./leopard.png);
+}
