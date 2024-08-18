@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 footer {
-  background-image: url(/assets/big5.png);
+  background-image: url(./big5.png);
   text-align: center;
   color: #f4f0f0;
   padding: 40px;
